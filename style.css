@@ -83,3 +83,17 @@ button{
     text-align: center;
     color: var(--accent-color);
 }
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .container{
+        width: 90%;
+    }
+}
