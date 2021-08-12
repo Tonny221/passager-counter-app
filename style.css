@@ -40,6 +40,7 @@ button{
 }
 
 .container{
+    width: 30%;
     padding: 4em;
     background-image: url(./img/app-bg.jpg);
     background-size: cover;
@@ -75,4 +76,10 @@ button{
 .save-button:hover{
     background-color: var(--save-button-color);
     font-weight: 700;
+}
+
+.previous-entries{
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--accent-color);
 }
