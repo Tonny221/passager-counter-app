@@ -15,7 +15,8 @@
     --accent-color: #EBEBFF;
     --secondary-color: #020213;
     --button-color: #0A0674;
-    --save-button-color: #FFE819; 
+    --save-button-color: #2dc937;
+    --reset-button-color: #FFE819;
 }
 
 html,
@@ -63,7 +64,8 @@ button{
 }
 
 .increment-button,
-.save-button{
+.save-button,
+.reset-button{
     transition: 0.2s;
 }
 
@@ -75,6 +77,13 @@ button{
 
 .save-button:hover{
     background-color: var(--save-button-color);
+    color: white;
+    font-weight: 700;
+}
+
+.reset-button:hover {
+    background-color: var(--reset-button-color);
+    color: black;
     font-weight: 700;
 }
 
