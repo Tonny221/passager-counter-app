@@ -22,6 +22,8 @@
 html,
 body{
     font-family: var(--body-font);
+    
+    background-color: #212128;
 }
 
 section{
@@ -29,6 +31,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 button{
@@ -47,6 +50,7 @@ button{
     background-size: cover;
     border: 4px solid var(--secondary-color);
     border-radius: 2rem;
+    border: #494930bf 3px solid;
 }
 
 .output-number h2{
